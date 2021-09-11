@@ -26,6 +26,12 @@ public class Main {
 		for(Student s : list) {
 			System.out.println(s.toString());
 		}
+		
+		Collections.sort(list,Collections.reverseOrder());
+		System.out.println("Student List (reverse ordered by name)");
+		for(Student s : list) {
+			System.out.println(s.toString());
+		}
 	}
 
 }
